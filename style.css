@@ -1,5 +1,8 @@
 body {
   background-image: url(grady.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar-brand {
@@ -12,7 +15,21 @@ h1{
     font-size: 2em;
 }
 
+.mb-1 {
+  margin-bottom: 0rem!important;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
 hr.new5 {
-    border: 3px solid green;
+    border: 3px solid rgb(134, 142, 143);
     border-radius: 5px;
   }
