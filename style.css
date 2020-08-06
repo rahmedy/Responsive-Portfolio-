@@ -1,5 +1,5 @@
 body {
-  background-image: url(grady.png);
+  background-image: radial-gradient(#525252,#131313);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,12 +7,20 @@ body {
 
 .navbar-brand {
     font-size: 1.8rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.nav-item{
+
+  font-family: 'Varela Round', sans-serif;
+
 }
 
 h1{
     margin-bottom: 1rem;
     line-height: 2;
     font-size: 2em;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .mb-1 {

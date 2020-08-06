@@ -3,6 +3,24 @@ hr.new2 {
   border-radius: 5px;
   }
 
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.nav-item{
+
+  font-family: 'Varela Round', sans-serif;
+
+}
+
+h1{
+    margin-bottom: 1rem;
+    line-height: 2;
+    font-size: 2em;
+    font-family: 'Varela Round', sans-serif;
+}
+
   .m-5 {
     margin: 1.5rem!important;
 }
