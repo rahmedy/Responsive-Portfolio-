@@ -1,6 +1,5 @@
-
 .wrapper {
-  height: 20vh;
+  height: 15vh;
 }
 
 body {
@@ -23,16 +22,15 @@ nav ul {
   margin: 0 auto;
   list-style-type: none;
 }
-nav ul h3{
+
+nav ul h3 {
   text-align: right;
-  background: -webkit-linear-gradient( rgba(255,131,105,1) 1%, rgba(245,20,20,1) 79%);
+  background: -webkit-linear-gradient(rgba(255, 131, 105, 1) 1%, rgba(245, 20, 20, 1) 79%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* font-family: 'NTR', sans-serif; */
   font-family: 'Mallanna', sans-serif;
 }
-
-
 
 nav a {
   display: block;
@@ -44,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #B8B8B8;
+  color: red;
 }
 
 .appleNav {
@@ -52,36 +50,39 @@ nav a:hover {
   margin: 0 auto;
 }
 
-
-
-header h3  {
+header h3 {
   position: relative;
   margin: 0 0 1.5em 0;
   color: black;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
   font-weight: 900;
 }
+
 header p {
   position: relative;
   margin: 0 0 1.5em 0;
-  color: gray;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  color: darkgray;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
   font-weight: 400;
   /* clear: left; */
 }
 
-section{
+section {
   /* text-align: center; */
   margin-top: 3em;
 }
-.highlight{
+
+.highlight {
   text-align: center;
-    border-bottom-color: blue;
+  border-bottom-color: blue;
 }
 
 #one {
   /* background-color: blueviolet; */
 }
+
 .highlight .image {
   -moz-order: 1;
   -webkit-order: 1;
@@ -90,6 +91,7 @@ section{
   border-radius: 0;
   width: 50%;
 }
+
 .image {
   border-radius: 4px;
   border: 0;
@@ -101,20 +103,17 @@ section{
 
 .highlight .image img {
   border-radius: 0;
-  width: 80%; 
+  width: 80%;
   margin-left: 11.5em;
-
 }
+
 .image img {
   border-radius: 5px;
   display: block;
-  
-
 }
-
 
 @media only screen and (max-width: 968px) {
   .demo .main-title {
-     font-size: 3em;
+    font-size: 3em;
   }
 }
