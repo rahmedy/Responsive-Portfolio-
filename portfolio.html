@@ -4,23 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/darkly/bootstrap.min.css"
-        integrity="sha384-Bo21yfmmZuXwcN/9vKrA5jPUMhr7znVBBeLxT9MA4r2BchhusfJ6+n8TLGUcRAtL" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="port.css" />
     <!-- <a href="https://www.w3schools.com/" target="_self">Visit W3Schools!</a>  this will be used  for the link to open on smae page -->
     <title>Responsive Portfolio</title>
 
 </head>
-
-
+<!-- 
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+    </div>
+</nav> -->
 <body>
 
-
-    
     <div class="container">
-        <div class="card">
-            <div class="face face1">
+        <div class="card" id = "lineOne">
+            <div class="face face1" id="purp">
                 <div class="content">
                     <img src="/assets/demo copy.png">
                     <h3>SocioPod</h3>
@@ -32,12 +34,12 @@
                         interests and be shown podcasts that match their fit. The user's data, such as their
                         interests and favorites, will be stored in a SQL database. This Application is powered by HTML5,
                         CSS, Javascript, Node.js, MySQL, and is Deployed on Heroku.</p>
-                    <a href="#">Check it out</a>
+                    <a href="https://github.com/VeigarMain/SocioPod"target="_blank">Check it out</a>
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="face face1">
+        <div class="card" id = "lineTwo">
+            <div class="face face1" id="green">
                 <div class="content">
                     <img src="/assets/covid.png">
                     <h3>Covid-19 Tracker</h3>
@@ -49,12 +51,12 @@
                         working Live time COVID-19 tracker. This will provide users with the states currently reporting
                         the most new cases as well as additional data about any state they search.The application also
                         includses a syptonps test and a helpulf guides page for the user </p>
-                    <a href="#">Check it out</a>
+                    <a href="https://github.com/courtneypaasch/hidden-hippos"target="_blank">Check it out</a>
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="face face1">
+        <div class="card" id = "lineThree">
+            <div class="face face1" id="blue">
                 <div class="content">
                     <img src="/assets/emplo.png">
                     <h3>Team Profile Generator</h3>
@@ -67,80 +69,14 @@
                         engineers and interns. Application passed all unit tests. When the user has
                         completed building the team, the application will create an HTML file that displays a
                         formatted team roster based on the information provided.</p>
-                    <a href="#">Check it out</a>
+                    <a href="https://github.com/rahmedy/Team-Profile-Generator-"target="_blank">Check it out</a>
                 </div>
             </div>
         </div>
+
     </div>
 
-    <!-- <div class="container">
-        <div class="card" id= "one">
-            <div class="imgOne">
-                <img
-                    src="https://user-images.githubusercontent.com/40651335/88978630-13f16e80-d28e-11ea-90eb-a4693d8ce963.png">
-            </div>
-            <div class="content">
-                <h2>Covid-19 Tracker</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas efficitur odio non dignissim
-                    posuere. Morbi non tempus orci. Suspendisse in velit eros. Vestibulum id nulla felis. Nullam
-                    mattis velit sed elit tempus efficitur. Cras maximus quis odio luctus venenatis. Curabitur
-                    pulvinar vel sem eget porttitor. In non elit eget libero iaculis rhoncus sit amet a augue.</p>
-            </div>
-            </div>
-            <div class="card" id = "two">
-                <div class="imgOne">
-                    <img
-                        src="assets/readmelogo.png">
-                </div>
-                <div class="content">
-                    <h2>ReadMe Generator</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas efficitur odio non dignissim
-                        posuere. Morbi non tempus orci. Suspendisse in velit eros. Vestibulum id nulla felis. Nullam
-                        mattis velit sed elit tempus efficitur. Cras maximus quis odio luctus venenatis. Curabitur
-                        pulvinar vel sem eget porttitor. In non elit eget libero iaculis rhoncus sit amet a augue.</p>
-                </div>
-                </div>
-                <div class="card" id = "three">
-                    <div class="imgOne">
-                        <img
-                            src="/assets/demo copy.png">
-                    </div>
-                    <div class="content">
-                        <h2>SocioPod</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas efficitur odio non dignissim
-                            posuere. Morbi non tempus orci. Suspendisse in velit eros. Vestibulum id nulla felis. Nullam
-                            mattis velit sed elit tempus efficitur. Cras maximus quis odio luctus venenatis. Curabitur
-                            pulvinar vel sem eget porttitor. In non elit eget libero iaculis rhoncus sit amet a augue.</p>
-                    </div>
-                    </div>
-               
-                        <div class="card" id = "four">
-                            <div class="imgOne">
-                                <img
-                                    src="/assets/note.png">
-                            </div>
-                            <div class="content">
-                                <h2>Note Taker</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas efficitur odio non dignissim
-                                    posuere. Morbi non tempus orci. Suspendisse in velit eros. Vestibulum id nulla felis. Nullam
-                                    mattis velit sed elit tempus efficitur. Cras maximus quis odio luctus venenatis. Curabitur
-                                    pulvinar vel sem eget porttitor. In non elit eget libero iaculis rhoncus sit amet a augue.</p>
-                            </div>
-                            </div>
-                            <div class="card" id = "five">
-                                <div class="imgOne">
-                                    <img
-                                        src="/assets/emplo.png">
-                                </div>
-                                <div class="content">
-                                    <h2>ProjectThree</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas efficitur odio non dignissim
-                                        posuere. Morbi non tempus orci. Suspendisse in velit eros. Vestibulum id nulla felis. Nullam
-                                        mattis velit sed elit tempus efficitur. Cras maximus quis odio luctus venenatis. Curabitur
-                                        pulvinar vel sem eget porttitor. In non elit eget libero iaculis rhoncus sit amet a augue.</p>
-                                </div>
-                                </div>
-            </div> -->
+
 </body>
 
 </html>

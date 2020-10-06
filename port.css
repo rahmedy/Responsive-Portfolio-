@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: #333;
+    background: #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,15 @@ body {
 .container .card {
     position: relative;
     cursor: pointer;
+}
+.container #lineOne{
+    border-bottom: 4px solid lightpink;
+}
+.container #lineTwo{
+    border-bottom: 4px solid lightgreen;
+}
+.container #lineThree{
+    border-bottom: 4px solid blue;
 }
 
 .container .card .face {
@@ -38,8 +47,24 @@ body {
 }
 
 .container .card:hover .face.face1 {
-    background: #ff0057;
+    /* background: #ff0057; */
     transform: translateY(0);
+}
+.container .card:hover #purp {
+    background:purple;
+    border-bottom: 4px solid black;
+
+}
+.container .card:hover #green {
+    background:lightgreen;
+    border-bottom: 4px solid black;
+
+}
+
+.container .card:hover #blue {
+    background:blue;
+    border-bottom: 4px solid black;
+
 }
 
 .container .card .face.face1 .content {
@@ -78,6 +103,7 @@ body {
 
 .container .card:hover .face.face2 {
     transform: translateY(0);
+    
 }
 
 .container .card .face.face2 .content p {
