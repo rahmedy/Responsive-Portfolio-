@@ -1,25 +1,47 @@
-
-
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
- body {
-
-	background:red;
-} 
-.contact{
+body {
+	justify-content: center;
 	text-align: center;
-	margin-top: 20px;
-	color: white;
+	background: #000;
+}
+
+#home {
+display: inline-flex;
+	font-size: 60px;
+	margin-right: 200px;
+	color: gray;
+}
+#home a {
+	color:crimson;
+}
+
+#contact {
+	display: inline-flex;
+	margin-left: 20px;
+	color: gray;
 	font-family: 'Comfortaa', cursive;
 
 }
 
+#light {
+	display: inline-flex;
+	font-size: 60px;
+	margin-top: 20px;
+	margin-left: 200px;
+}
+#light a {
+	color: royalblue;
+}
 
-#main{
+
+
+#main {
+	margin-bottom: 90px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -64,11 +86,13 @@ ul li:nth-child(1)::before {
 	color: white;
 	border-bottom: 4px solid whitesmoke;
 }
+
 ul li:nth-child(2)::before {
 	content: '\f0e1';
 	color: blue;
 	border-bottom: 4px solid blue;
 }
+
 ul li:nth-child(3)::before {
 	content: '\f0e0';
 	color: red;
@@ -94,6 +118,7 @@ ul li:hover::before {
 	transition: 0.35s ease-in-out;
 	font-weight: 700;
 }
+
 .btn:hover {
 	background: #dc1029;
 }
@@ -116,10 +141,12 @@ ul li:hover::before {
 	max-height: 100vh;
 	overflow-y: auto;
 }
+
 .overlay.open {
 	opacity: 1;
 	pointer-events: inherit;
 }
+
 .overlay .modal {
 	background: white;
 	text-align: center;
@@ -131,19 +158,23 @@ ul li:hover::before {
 	max-height: 100vh;
 	overflow-y: auto;
 }
+
 .overlay .modal.open {
 	opacity: 1;
 	pointer-events: inherit;
 }
+
 .overlay .modal.open .content {
 	transform: translate(0, 0px);
 	opacity: 1;
 }
+
 .overlay .modal .content {
 	transform: translate(0, -10px);
 	opacity: 0;
 	transition: 0.35s ease-in-out;
 }
+
 .overlay .modal .title {
 	margin-top: 0;
 }
