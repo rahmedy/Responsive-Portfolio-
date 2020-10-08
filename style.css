@@ -1,6 +1,6 @@
 body {
   /* margin: 0; */
-  background-color: #000;
+  background-color: red;
 }
 
 #main {
@@ -304,6 +304,7 @@ background: linear-gradient(196deg, rgba(252,138,19,1) 33%, rgba(251,105,2,1) 57
   margin-left: 7px;
   margin-top: 40px;
   font-size: 60px;
+  color: cyan;
 }
 
 #mong{
