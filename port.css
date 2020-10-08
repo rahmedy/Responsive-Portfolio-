@@ -20,13 +20,16 @@ body {
     position: relative;
     cursor: pointer;
 }
-.container #lineOne{
+
+.container #lineOne {
     border-bottom: 4px solid lightpink;
 }
-.container #lineTwo{
+
+.container #lineTwo {
     border-bottom: 4px solid lightgreen;
 }
-.container #lineThree{
+
+.container #lineThree {
     border-bottom: 4px solid skyblue;
 }
 
@@ -50,19 +53,21 @@ body {
     /* background: #ff0057; */
     transform: translateY(0);
 }
+
 .container .card:hover #purp {
-    background:purple;
+    background: purple;
     border-bottom: 4px solid black;
 
 }
+
 .container .card:hover #green {
-    background:lightgreen;
+    background: lightgreen;
     border-bottom: 4px solid black;
 
 }
 
 .container .card:hover #blue {
-    background:blue;
+    background: blue;
     border-bottom: 4px solid black;
 
 }
@@ -103,7 +108,7 @@ body {
 
 .container .card:hover .face.face2 {
     transform: translateY(0);
-    
+
 }
 
 .container .card .face.face2 .content p {
