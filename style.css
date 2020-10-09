@@ -1,11 +1,27 @@
 body {
   /* margin: 0; */
-  background-color: red;
+  background-color:black;
 }
+#port{
+  font-size: 30px;
+}
+#port:hover{
+  color: gold;
+}
+#con{
+  font-size: 30px;
+}
+
+#con:hover{
+  color: dodgerblue;
+}
+
+
 
 #main {
   height: 100vh;
-  background-color: #000;
+  background: rgb(45,45,45);
+background: linear-gradient(218deg, rgba(45,45,45,1) 7%, rgba(73,73,73,1) 30%, rgba(0,95,171,1) 100%);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   -webkit-background-size: cover;
@@ -31,7 +47,7 @@ body {
 }
 
 h1 {
-  color: aliceblue;
+  color:coral;
   font-size: 70px;
 }
 
@@ -47,13 +63,8 @@ h1:hover {
   color: royalblue;
 }
 
-h4:hover {
-  color: lightsalmon;
-}
 
-#name:hover {
-  color: chartreuse;
-}
+
 
 /* h3:hover{
   color: aliceblue;
@@ -65,36 +76,30 @@ h4:hover {
 #bio {
   margin-top: .3cm;
   height: 100vh;
-  background-color: black;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding: 0;
+  background: rgb(45,45,45);
+  background: linear-gradient(30deg, rgba(45,45,45,1) 7%, rgba(73,73,73,1) 30%, rgba(0,95,171,1) 100%);
+  display: flex;
+  /* background-repeat: no-repeat; */
+  /* padding: 0; */
 }
 
 
 .about {
-  position: absolute;
-  width: 100%;
-  top: 150%;
-  left: 0;
-  -webkit-transform: translate(0%, -50%);
-  -moz-transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
-  -o-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
-  padding: 0 15px;
+  margin-top: 80px;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
 }
 
 #about {
-  padding-top: 50px;
-  width: 100%;
-  text-align: center;
-  color: #fff;
+  font-size: 40px;
+  color: coral;
 }
+
+p {
+  color: #fff;
+  font-size: 25px;
+  margin: 50px;
+}  
 
 h3 {
   color: #fff;
@@ -115,14 +120,7 @@ h3 {
 #gold:hover {
   color: gold;
 }
-
- p {
-  color: aliceblue;
-  text-align: center;
-  padding-top: 30px;
-  font-size: 18px;
   
-}  
 
 /* h3:hover::after {
 	content: "";

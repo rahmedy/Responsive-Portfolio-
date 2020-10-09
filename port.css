@@ -2,13 +2,16 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: #000;
+    background: rgb(45,45,45);
+background: linear-gradient(30deg, rgba(45,45,45,1) 12%, rgba(95,155,204,1) 42%, rgba(0,60,161,1) 70%, rgba(0,0,0,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: consolas;
 }
+.bod{
 
+}
 .container {
     width: 1000px;
     position: relative;
@@ -16,7 +19,7 @@ body {
     justify-content: space-between;
 }
 
-.container .card {
+.container .cardd {
     position: relative;
     cursor: pointer;
 }
@@ -33,13 +36,13 @@ body {
     border-bottom: 4px solid skyblue;
 }
 
-.container .card .face {
+.container .cardd .face {
     width: 300px;
     height: 200px;
     transition: 0.5s;
 }
 
-.container .card .face.face1 {
+.container .cardd .face.face1 {
     position: relative;
     background: #333;
     display: flex;
@@ -49,43 +52,43 @@ body {
     transform: translateY(100px);
 }
 
-.container .card:hover .face.face1 {
+.container .cardd:hover .face.face1 {
     /* background: #ff0057; */
     transform: translateY(0);
 }
 
-.container .card:hover #purp {
+.container .cardd:hover #purp {
     background: purple;
     border-bottom: 4px solid black;
 
 }
 
-.container .card:hover #green {
+.container .cardd:hover #green {
     background: lightgreen;
     border-bottom: 4px solid black;
 
 }
 
-.container .card:hover #blue {
+.container .cardd:hover #blue {
     background: blue;
     border-bottom: 4px solid black;
 
 }
 
-.container .card .face.face1 .content {
+.container .cardd .face.face1 .content {
     opacity: 0.2;
     transition: 0.5s;
 }
 
-.container .card:hover .face.face1 .content {
+.container .cardd:hover .face.face1 .content {
     opacity: 1;
 }
 
-.container .card .face.face1 .content img {
+.container .cardd .face.face1 .content img {
     max-width: 100px;
 }
 
-.container .card .face.face1 .content h3 {
+.container .cardd .face.face1 .content h3 {
     margin: 10px 0 0;
     padding: 0;
     color: #fff;
@@ -94,7 +97,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container .card .face.face2 {
+.container .cardd .face.face2 {
     position: relative;
     background: #fff;
     display: flex;
@@ -106,30 +109,29 @@ body {
     transform: translateY(-100px);
 }
 
-.container .card:hover .face.face2 {
+.container .cardd:hover .face.face2 {
     transform: translateY(0);
 
 }
 
-.container .card .face.face2 .content p {
+.container .cardd .face.face2 .content p {
     margin: 0;
     padding: 0;
-    font-size: small;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
 }
-
-.container .card .face.face2 .content a {
+.container .cardd .face.face2 .content a {
     margin: 15px 0 0;
     display: inline-block;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 600;
     color: #333;
     padding: 5px;
     border: 1px solid #333;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 
-.container .card .face.face2 .content a:hover {
+.container .cardd .face.face2 .content a:hover {
     background: #333;
     color: #fff;
 }

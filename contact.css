@@ -7,38 +7,52 @@
 body {
 	justify-content: center;
 	text-align: center;
-	background: #000;
+	background: rgb(45,45,45);
+	background: linear-gradient(218deg, rgba(45,45,45,1) 7%, rgba(73,73,73,1) 30%, rgba(0,95,171,1) 100%);
 }
 
 #home {
 	display: inline-flex;
-	font-size: 60px;
+	font-size: 50px;
 	margin-right: 200px;
 	color: gray;
 }
 
 #home a {
-	color: crimson;
+	color: gray;
 }
 
+#home a:hover {
+	color: darkred;
+}
+
+
 #contact {
+	padding: 50px;
+	margin-top: 10px;
+	text-align: center;
 	display: inline-flex;
-	margin-left: 20px;
-	color: gray;
-	font-family: 'Comfortaa', cursive;
+	color: coral;
+	font-size: 50px;
+		font-family: 'Comfortaa', cursive;
 
 }
 
 #light {
 	display: inline-flex;
-	font-size: 60px;
+	font-size: 40px;
 	margin-top: 20px;
 	margin-left: 200px;
 }
 
 #light a {
-	color: royalblue;
+	color: gray;
 }
+
+#light a:hover{
+	color: gold;
+}
+
 
 
 
@@ -47,8 +61,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
-	background: #000;
+	min-height: 70vh;
+	
 }
 
 ul {
@@ -92,15 +106,15 @@ ul li:nth-child(1)::before {
 
 ul li:nth-child(2)::before {
 	content: '\f0e1';
-	color: blue;
+	color: royalblue;
 	border-bottom: 4px solid blue;
 	pointer-events: none
 }
 
 ul li:nth-child(3)::before {
 	content: '\f0e0';
-	color: red;
-	border-bottom: 4px solid red;
+	color: crimson;
+	border-bottom: 4px solid crimson;
 	pointer-events: none
 }
 
